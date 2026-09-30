@@ -1,0 +1,42 @@
+<!-- title: Contact | McKee Media | description: Let's work together. Tell us about your brand and the services you're interested in. | nav: contact -->
+<main id="main">
+  <section class="contact">
+    <div class="wrap">
+      <div class="contact-intro">
+        <h1>LET’S WORK TOGETHER</h1>
+        <p>We’re strategists, storytellers, creators, organizers, and problem-solvers—all working together to make social media feel a little less overwhelming and a lot more effective.<br>McKee Media brings together expertise across social strategy, content creation, video production, community management, and business operations so our clients have a true creative partner at every step.</p>
+      </div>
+      <div class="contact-grid">
+        <form class="form" name="contact" method="POST" data-netlify="true" data-form data-success="Thanks! We’ll be in touch within two business days.">
+          <input type="hidden" name="form-name" value="contact">
+          <div class="field"><label for="first">First Name*</label><input id="first" name="first_name" required autocomplete="given-name"></div>
+          <div class="field"><label for="last">Last Name*</label><input id="last" name="last_name" required autocomplete="family-name"></div>
+          <div class="field"><label for="email">Email*</label><input id="email" type="email" name="email" required autocomplete="email"></div>
+          <div class="field field--full"><label for="socials">Link to Main Social Accounts, if any*</label><input id="socials" name="social_accounts" required></div>
+          <fieldset class="field field--full" data-require-one>
+            <legend>What services are you interested in?*</legend>
+            <div class="checks">
+              <label class="check"><input type="checkbox" name="services" value="Social Media Management">Social Media Management</label>
+              <label class="check"><input type="checkbox" name="services" value="Content Creation">Content Creation</label>
+              <label class="check"><input type="checkbox" name="services" value="Paid Media">Paid Media</label>
+              <label class="check"><input type="checkbox" name="services" value="Email Marketing">Email Marketing</label>
+              <label class="check"><input type="checkbox" name="services" value="Website Build &amp; Maintenance">Website Build &amp; Maintenance</label>
+              <label class="check"><input type="checkbox" name="services" value="Public Relations">Public Relations</label>
+            </div>
+          </fieldset>
+          <div class="field field--full"><label for="budget">What’s your investment range for this project?*</label><input id="budget" name="investment_range" required></div>
+          <div class="field field--full"><label for="start">Project start date?*</label><input id="start" type="date" name="start_date" required></div>
+          <div class="field field--full"><label for="source">How did you hear about us?*</label><input id="source" name="referral_source" required></div>
+          <button class="btn" type="submit">SUBMIT</button>
+          <p class="form-msg" role="status" aria-live="polite"></p>
+        </form>
+        <div class="contact-side">
+          <img src="assets/img/team-group.jpg" alt="The McKee Media team in their studio" width="544" height="482">
+          <!-- Placeholders from the Figma file — swap for a photo or stat -->
+          <div class="stat-tile stat-tile--cream">NEED PHOTO<br>OR STAT</div>
+          <div class="stat-tile stat-tile--lime">NEED PHOTO<br>OR STAT</div>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>

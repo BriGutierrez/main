@@ -1,0 +1,19 @@
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="site-header">
+  <div class="inner">
+    <a class="logo" href="index.html" aria-label="McKee Media home"><img src="assets/img/logo.png" alt="McKee Media" width="184" height="96"></a>
+    <button class="nav-toggle" aria-expanded="false" aria-controls="site-nav" aria-label="Menu">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><path d="M3 6h18M3 12h18M3 18h18"/></svg>
+    </button>
+    <nav class="nav" id="site-nav" aria-label="Main">
+      <ul class="nav-links">
+        <li><a href="services.html"{{current:services}}>SERVICES</a></li>
+        <li><a href="portfolio.html"{{current:portfolio}}>PORTFOLIO</a></li>
+        <li><a href="about.html"{{current:about}}>ABOUT</a></li>
+        <li><a href="blog.html"{{current:blog}}>BLOG</a></li>
+        <li><a class="is-cta" href="contact.html"{{current:contact}}>CONTACT</a></li>
+      </ul>
+      {{> socials}}
+    </nav>
+  </div>
+</header>
